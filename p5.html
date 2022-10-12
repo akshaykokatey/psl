@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <title>Sorting</title>
+    <h1>Sorted elements : </h1>
+
+</head>
+
+<body>
+
+
+    <script>
+        var temp;
+        var a = [150, 5, 7, 10, 152];
+        for (var i = 0; i < 5; i++) {
+            for (var j = 0; j < 5; j++) {
+                if (a[i] < a[j]) {
+                    temp = a[i];
+                    a[i] = a[j];
+                    a[j] = temp;
+                }
+            }
+
+        }
+        document.write(a);
+    </script>
+
+
+
+</body>
+
+</html>
